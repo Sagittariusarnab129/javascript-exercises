@@ -1,6 +1,7 @@
 const palindromes = function (dog) {
+  const string = 
   let god = dog.split("").reverse().join("");
-  if(god === dog){
+  if(god == dog){
     return true;
   }
   else{
